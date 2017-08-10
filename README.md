@@ -12,12 +12,13 @@ your local Home Assistant configuration folder ``.homeassistant``.
 Your ``configuration.yaml`` file needs an entry for the component including
 your cars odometer sensor (``odometer_sensor``).
 
-.. code:: yaml
+```yaml
     sensor:
     - platform: car_milage_per_month
       odometer_sensor: sensor.ete123_odometer (the sensor that holds the total amount of km)
       scan_interval: 3600
       unit_of_measurement: 'km'
+```
 
 Sensor attributes
 -------------
