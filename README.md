@@ -26,6 +26,8 @@ The sensor will hold several attributes, one for each month.
 An attribute for the current month is also exposed with the name ``current month`` 
 which makes it easy to use in automation (without having to determine the current month yourself).
 
+![alt text](https://github.com/mar-schmidt/home-assistant-sensor-car-milage/blob/master/car_milage_per_month.png)
+
 Extras
 -------------
 The component will persist the milage data through a file created and located in 
